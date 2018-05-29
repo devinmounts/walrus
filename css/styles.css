@@ -33,3 +33,30 @@ img{
 .fadeable-out:hover {
     text-decoration: underline;
 }
+
+.toggle {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.toggle:hover {
+    text-decoration: underline;
+}
+
+.slideUpWalrus {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.slideUpWalrus:hover {
+    text-decoration: underline;
+}
+
+.slideDownWalrus {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.slideDownWalrus:hover {
+    text-decoration: underline;
+}
