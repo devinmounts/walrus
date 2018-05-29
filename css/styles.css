@@ -15,3 +15,21 @@ img{
 .clickable:hover{
   text-decoration: underline;
 }
+
+.fadeable-in {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.fadeable-in:hover {
+    text-decoration: underline;
+}
+
+.fadeable-out {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.fadeable-out:hover {
+    text-decoration: underline;
+}

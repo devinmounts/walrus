@@ -1,13 +1,18 @@
 $(document).ready(function() {
+  $("#fade-in-walrus").hide();
+
   $(".clickable").click(function() {
     $("#initially-showing").toggle();
     $("#initially-hidden").toggle();
   });
 
-  $(".fadeInClickable").click(function() {
-    $("#initially-hidden-fade-in").fadeIn();
+  $(".fadeable-in").click(function() {
+    $("#fade-in-walrus").fadeIn();
   });
 
+  $(".fadeable-out").click(function() {
+    $("#fade-in-walrus").fadeOut();
+  });
 
 });
 
