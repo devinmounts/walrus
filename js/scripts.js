@@ -2,6 +2,8 @@ $(document).ready(function() {
   $("#fade-in-walrus").hide();
   $("#toggle-walrus").hide();
   $("#slide-walrus").hide();
+  $("#slideToggle-walrus").hide();
+
 
   $(".clickable").click(function() {
     $("#initially-showing").toggle();
@@ -28,6 +30,9 @@ $(document).ready(function() {
     $("#slide-walrus").slideDown();
   });
 
+  $(".slideToggle").click(function() {
+    $("#slideToggle-walrus").slideToggle();
+  });
 });
 
 /*

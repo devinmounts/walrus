@@ -60,3 +60,12 @@ img{
 .slideDownWalrus:hover {
     text-decoration: underline;
 }
+
+.slideToggle {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.slideToggle:hover {
+    text-decoration: underline;
+}
